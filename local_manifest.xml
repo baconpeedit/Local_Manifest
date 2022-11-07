@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="mit"
+                fetch="https://github.com" />
+  
+   <!-- Trees -->
+  
+  <project path="device/xiaomi/ginkgo" name="baconpeedit/android_device_xiaomi_ginkgo" remote="mit" revision="arrow" />
+  <project path="vendor/xiaomi/ginkgo" name="baconpeedit/VendorCommon" remote="mit" revision="common" />
+  <project path="kernel/xiaomi/ginkgo" name="baconpeedit/Quicksilver414" remote="mit" revision="thirteen" />
+  <project path="device/xiaomi/ginkgo-kernel" name="baconpeedit/old-dkt" remote="mit" revision="common" />
+  <project path="vendor/miuicamera" name="AOSPA/android_vendor_miuicamera" remote="mit" revision="ruby-a3" />
+  
+  
+   <!-- SePolicy -->
+  
+  <project path="device/xiaomi/ginkgo-sepolicy" name="baconpeedit/oldsepolicy" remote="mit" revision="modified" />
+ 
+</manifest>
