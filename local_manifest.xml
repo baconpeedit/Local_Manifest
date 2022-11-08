@@ -9,6 +9,6 @@
   <project path="device/xiaomi/ginkgo" name="baconpeedit/android_device_xiaomi_ginkgo" remote="mit" revision="arrow" />
   <project path="vendor/xiaomi/ginkgo" name="baconpeedit/VendorCommon" remote="mit" revision="common" />
   <project path="kernel/xiaomi/ginkgo" name="baconpeedit/QS414" remote="mit" revision="qscommon" />
-  <project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera" remote="mit" revision="arrow-12.0-a3" />
+  <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="mit" revision="arrow-13.0" />
  
 </manifest>
