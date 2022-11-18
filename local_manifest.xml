@@ -3,6 +3,10 @@
   
   <remote name="mit"
                 fetch="https://github.com" />
+
+<!-- github-silicon -->
+ <remote name="github-silicon"
+	 fetch="https://github.com/AOSP-Silicon" />
   
    <!-- Trees -->
   
