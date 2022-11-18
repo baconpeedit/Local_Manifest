@@ -6,9 +6,11 @@
   
    <!-- Trees -->
   
-  <project path="device/xiaomi/ginkgo" name="baconpeedit/android_device_xiaomi_ginkgo" remote="mit" revision="arrow" />
-  <project path="vendor/xiaomi/ginkgo" name="baconpeedit/VendorCommon" remote="mit" revision="common" />
-  <project path="kernel/xiaomi/ginkgo" name="baconpeedit/QS414" remote="mit" revision="qscommon" />
-  <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="mit" revision="arrow-13.0" />
+  <project path="device/xiaomi/ginkgo" name="tejasinggh/ginkgaydt" remote="mit" revision="ginkgay" />
+  <project path="vendor/xiaomi/ginkgo" name="tejasinggh/vendorginkgay" remote="mit" revision="gaymon" />
+  <project path="kernel/xiaomi/ginkgo" name="tejasinggh/gaykernel" remote="mit" revision="kerneltera" />
+  <project path="device/xiaomi/ginkgo-kernel" name="tejasinggh/secretingredient" remote="mit" revision="secret" />
+  <project path="device/xiaomi/ginkgo-sepolicy" name="tejasinggh/externalpolicy" remote="mit" revision="policy" />
+
  
 </manifest>
