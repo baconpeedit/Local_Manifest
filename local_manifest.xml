@@ -16,6 +16,14 @@
   <project path="device/xiaomi/ginkgo-kernel" name="tejasinggh/secretingredient" remote="mit" revision="secret" />
   <project path="device/xiaomi/ginkgo-sepolicy" name="tejasinggh/externalpolicy" remote="mit" revision="policy" />
 
+   <!-- (Clang) -->
+  
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
+
+  <!-- Toolchain -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="Dooms-v/proton-clang" remote="mit" revision="master" clone-depth="1" />
+
 <!-- Bluetooth -->
  <remove-project name="packages_modules_Bluetooth" />
  <project path="packages/modules/Bluetooth" name="evolution-x_packages_modules_Bluetooth" remote="github-silicon" revision="tiramisu" clone-depth="1" />
