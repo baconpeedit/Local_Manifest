@@ -40,24 +40,4 @@
  <project path="frameworks/base" name="evolution-x_frameworks_base" remote="github-silicon" revision="tiramisu" clone-depth="1" />
  <project path="frameworks/native" name="evolution-x_frameworks_native" remote="github-silicon" revision="tiramisu" clone-depth="1" />
 
- <!-- Nukes -->
-
- <remove-project name="android_vendor_nxp_interfaces_opensource_nfc" />
- <remove-project name="android_vendor_nxp_opensource_external_libnfc-nci" />
- <remove-project name="android_vendor_nxp_opensource_frameworks" />
- <remove-project name="android_vendor_nxp_opensource_packages_apps_Nfc" />
- <remove-project name="android_vendor_nxp_opensource_halimpl" />
- <remove-project name="android_vendor_nxp_opensource_hidlimpl" />
-
-  <!-- vendor repos -->
-
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="arrow" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="arrow" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="arrow" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="arrow" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="arrow-13.0-pn5xx" remote="arrow"  />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="arrow-13.0-pn5xx" remote="arrow"  />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="arrow-13.0-sn100x" remote="arrow"  />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="arrow-13.0-sn100x" remote="arrow"  />
-
  </manifest>
