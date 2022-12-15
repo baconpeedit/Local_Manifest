@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="mit"
-                fetch="https://github.com" />
+ <remote name="mit"
+           fetch="https://github.com" />
+
+ <remote name="github-silicon"
+	         fetch="https://github.com/AOSP-Silicon" />
 
 
  <remote  name="arrow"
@@ -24,6 +27,18 @@
   <!-- Toolchain -->
 
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mit" revision="master" clone-depth="1" />
+
+  <!-- Bluetooth -->
+ <remove-project name="packages_modules_Bluetooth" />
+ <project path="packages/modules/Bluetooth" name="evolution-x_packages_modules_Bluetooth" remote="github-silicon" revision="tiramisu" clone-depth="1" />
+
+ <!-- Frameworks -->
+ <remove-project name="frameworks_base" />
+ <remove-project name="frameworks_native" />
+ <remove-project name="frameworks_opt_telephony" />
+ <project path="frameworks/opt/telephony" name="evolution-x_frameworks_opt_telephony" remote="github-silicon" revision="tiramisu" clone-depth="1" />
+ <project path="frameworks/base" name="evolution-x_frameworks_base" remote="github-silicon" revision="tiramisu" clone-depth="1" />
+ <project path="frameworks/native" name="evolution-x_frameworks_native" remote="github-silicon" revision="tiramisu" clone-depth="1" />
 
  <!-- Nukes -->
 
