@@ -33,7 +33,6 @@
  <remove-project name="android_vendor_nxp_opensource_packages_apps_Nfc" />
  <remove-project name="android_vendor_nxp_opensource_halimpl" />
  <remove-project name="android_vendor_nxp_opensource_hidlimpl" />
- <remove-project name="android_vendor_nxp_opensource_hidlimpl" />
 
   <!-- vendor repos -->
 
