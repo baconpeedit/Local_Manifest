@@ -4,13 +4,9 @@
  <remote name="mit"
            fetch="https://github.com" />
 
- <remote name="github-silicon"
-	         fetch="https://github.com/AOSP-Silicon" />
-
+     <!-- Trees -->
   
-   <!-- Trees -->
-  
-  <project path="device/xiaomi/ginkgo" name="baconpeedit/device_xiaomi_ginkgo" remote="mit" revision="Evolution-X" />
+  <project path="device/xiaomi/ginkgo" name="baconpeedit/device_xiaomi_ginkgo" remote="mit" revision="Xtended-xt" />
   <project path="vendor/xiaomi/ginkgo" name="baconpeedit/VendorCommon" remote="mit" revision="ginkgo" />
   <project path="kernel/xiaomi/ginkgo" name="baconpeedit/QS414" remote="mit" revision="qs256" />
   <project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera" remote="mit" revision="arrow-12.0-a3" />
@@ -22,22 +18,5 @@
   <!-- Toolchain -->
 
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mit" revision="master" clone-depth="1" />
-
-  <!-- Remove Project -->
-        <remove-project name="vendor_evolution" />
-    
-        <project path="vendor/evolution" name="Nishant9947/vendor_evolution" revision="tiramisu" remote="mit" />
-
-  <!-- Bluetooth -->
- <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="evolution-x_packages_modules_Bluetooth" remote="github-silicon" revision="tiramisu" clone-depth="1" />
-
- <!-- Frameworks -->
- <remove-project name="frameworks_base" />
- <remove-project name="frameworks_native" />
- <remove-project name="frameworks_opt_telephony" />
- <project path="frameworks/opt/telephony" name="evolution-x_frameworks_opt_telephony" remote="github-silicon" revision="tiramisu" clone-depth="1" />
- <project path="frameworks/base" name="evolution-x_frameworks_base" remote="github-silicon" revision="tiramisu" clone-depth="1" />
- <project path="frameworks/native" name="evolution-x_frameworks_native" remote="github-silicon" revision="tiramisu" clone-depth="1" />
 
  </manifest>
