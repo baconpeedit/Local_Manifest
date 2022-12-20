@@ -11,13 +11,6 @@
   <project path="kernel/xiaomi/ginkgo" name="crdroidandroid/android_kernel_xiaomi_ginkgo" remote="mit" revision="13.0" clone-depth="1" />
   <project path="vendor/miuicamera" name="baconpeedit/android_vendor_miuicamera" remote="mit" revision="micam-12.1" />
 
-  <!-- Frameworks -->
-
-  <remove-project name="frameworks_base" />
-  <remove-project name="frameworks_av" />
-  <project path="frameworks/base" name="baconpeedit/frameworks_base" remote="mit" revision="base-xt" clone-depth="1" />
-  <project path="frameworks/av" name="baconpeedit/frameworks_av" remote="mit" revision="av-xt" clone-depth="1" />
-
   <!-- (Clang) -->
   
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
