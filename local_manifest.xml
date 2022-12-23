@@ -7,6 +7,14 @@
  <remote name="track"
            fetch="https://gitlab.com" />
 
+  <!-- Nuke Projects -->
+                <remove-project name="LineageOS/android_packages_apps_Settings" />
+                <remove-project name="LineageOS/android_hardware_qcom_media" />
+                <remove-project name="LineageOS/android_hardware_qcom_display" />
+                <remove-project name="LineageOS/android_hardware_qcom_audio" />
+                <remove-project name="LineageOS/android_frameworks_base" />
+                <remove-project name="LineageOS/android_frameworks_av" />
+
    <!-- Trees -->
   
   <project path="device/xiaomi/ginkgo" name="tejasinggh/unstable_tree" remote="mit" revision="wip" clone-depth="1" />
@@ -14,8 +22,17 @@
   <project path="kernel/xiaomi/ginkgo" name="tejasinggh/wip_kernel" remote="mit" revision="wip_kernel" clone-depth="1" />
   <project path="vendor/miuicamera" name="baconpeedit/android_vendor_miuicamera" remote="mit" revision="micam-12.1" />
 
+  <!-- Projects -->
+ 
+  <project path="packages/apps/Settings" name="ArrowOS/android_packages_resources_devicesettings" remote="mit" revision="arrow-13.0" />
+  <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="mit" revision="arrow-13.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
+  <project path="frameworks/base" name="baconpeedit/android_frameworks_base" remote="mit" revision="lineage-20.0" />
+  <project path="frameworks/av" name="baconpeedit/android_frameworks_av" remote="mit" revision="lineage-20.0" />
+
   <!-- (Clang) -->
   
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="track" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="track" revision="master" clone-depth="1" />
 
  </manifest>
