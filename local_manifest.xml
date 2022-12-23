@@ -4,6 +4,9 @@
  <remote name="mit"
            fetch="https://github.com" />
 
+ <remote name="track"
+           fetch="https://gitlab.com" />
+
    <!-- Trees -->
   
   <project path="device/xiaomi/ginkgo" name="tejasinggh/unstable_tree" remote="mit" revision="wip" clone-depth="1" />
@@ -13,6 +16,6 @@
 
   <!-- (Clang) -->
   
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="track" revision="master" clone-depth="1" />
 
  </manifest>
