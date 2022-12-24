@@ -4,17 +4,13 @@
  <remote name="mit"
            fetch="https://github.com" />
 
- <remote name="track"
-           fetch="https://gitlab.com" />
-
   <!-- Nuke Projects -->
-                <remove-project name="LineageOS/android_hardware_qcom_media" />
-                <remove-project name="LineageOS/android_hardware_qcom_display" />
-                <remove-project name="LineageOS/android_hardware_qcom_audio" />
-                <remove-project name="LineageOS/android_frameworks_base" />
-                <remove-project name="LineageOS/android_frameworks_av" />
-                <remove-project name="LineageOS/android_packages_apps_Settings" />
-                <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+                <remove-project name="hardware_qcom_media" />
+                <remove-project name="hardware_qcom_display" />
+                <remove-project name="hardware_qcom_audio" />
+                <remove-project name="frameworks_base" />
+                <remove-project name="frameworks_av" />
+                <remove-project name="android_packages_resources_devicesettings" />
 
    <!-- Trees -->
   
@@ -25,16 +21,15 @@
 
   <!-- Projects -->
  
-  <project path="packages/apps/Settings" name="SwapnilVicky/android_packages_apps_Settings" remote="mit" revision="lineage-20.0" />
-  <project path="packages/apps/Trebuchet" name="SwapnilVicky/android_packages_apps_Trebuchet" remote="mit" revision="lineage-20.0" />
+  <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="mit" revision="arrow-13.0" />
   <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
-  <project path="frameworks/base" name="baconpeedit/android_frameworks_base" remote="mit" revision="lineage-20.0" />
-  <project path="frameworks/av" name="baconpeedit/android_frameworks_av" remote="mit" revision="lineage-20.0" />
+  <project path="frameworks/base" name="baconpeedit/frameworks_base" remote="mit" revision="frameworks-xt-base" />
+  <project path="frameworks/av" name="baconpeedit/frameworks_av" remote="mit" revision="av-frameworks-xt" />
 
   <!-- (Clang) -->
   
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="track" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="mit" revision="arrow-11.0" clone-depth="1" />
 
  </manifest>
