@@ -29,7 +29,11 @@
   <project path="frameworks/av" name="baconpeedit/frameworks_av" remote="mit" revision="av-frameworks-xt" />
 
   <!-- (Clang) -->
-  
- <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="mit" revision="arrow-11.0" clone-depth="1" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+
+  <!-- Toolchain -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mit" revision="master" clone-depth="1" />
 
  </manifest>
