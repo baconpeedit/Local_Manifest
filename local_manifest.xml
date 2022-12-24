@@ -32,8 +32,4 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 
-  <!-- Toolchain -->
-
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="mit" revision="master" clone-depth="1" />
-
  </manifest>
