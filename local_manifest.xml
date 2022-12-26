@@ -9,7 +9,6 @@
 
   <!-- Nuke Projects -->
                 <remove-project name="LineageOS/android_hardware_qcom_media" />
-                <remove-project name="hardware_qcom-caf_sm8150_display" />
                 <remove-project name="LineageOS/android_hardware_qcom_audio" />
                 <remove-project name="frameworks_av" />
                 <remove-project name="packages_resources_devicesettings" />
@@ -36,7 +35,6 @@
  
   <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="mit" revision="arrow-13.0" />
   <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="frameworks/av" name="baconpeedit/evo_frameworks_av" remote="mit" revision="tiramisu" />
 
