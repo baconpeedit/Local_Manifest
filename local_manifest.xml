@@ -23,6 +23,7 @@
                 <remove-project name="PixelExperience/vendor_nxp_opensource_sn100x_hidlimpl" />
                 <remove-project name="PixelExperience/vendor_nxp_secure_element" />
                 <remove-project name="PixelExperience/vendor_nxp_secure_element_extns" />
+                <remove-project name="android_hardware_lineage_compat" />
 
    <!-- Trees -->
   
