@@ -3,26 +3,12 @@
   
  <remote name="mit"
            fetch="https://github.com" />
- <remote name="xtended"
-           fetch="https://github.com/Project-Xtended"
-           revision="refs/heads/xt" />
 
   <!-- Nuke Projects -->
                 <remove-project name="LineageOS/android_hardware_qcom_media" />
                 <remove-project name="LineageOS/android_hardware_qcom_audio" />
                 <remove-project name="frameworks_av" />
                 <remove-project name="packages_resources_devicesettings" />
-                <remove-project name="PixelExperience/vendor_nxp_nfc" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_interfaces_nfc" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_commonsys_external_libnfc-nci" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_commonsys_frameworks" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_commonsys_packages_apps_Nfc" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_pn5xx_halimpl" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_pn5xx_hidlimpl" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_sn100x_halimpl" />
-                <remove-project name="PixelExperience/vendor_nxp_opensource_sn100x_hidlimpl" />
-                <remove-project name="PixelExperience/vendor_nxp_secure_element" />
-                <remove-project name="PixelExperience/vendor_nxp_secure_element_extns" />
                 <remove-project name="android_hardware_lineage_compat" />
 
    <!-- Trees -->
@@ -38,20 +24,6 @@
   <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="frameworks/av" name="baconpeedit/evo_frameworks_av" remote="mit" revision="tiramisu" />
-
-  <!-- NFC -->
-  
-  <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="xtended" />
-  <project path="vendor/nxp/secure_element" name="vendor_nxp_secure_element" remote="xtended"/>
-  <project path="vendor/nxp/secure_element_extns" name="vendor_nxp_secure_element_extns" remote="xtended"/>
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="xtended"/>  
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="xtended"/>  
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_commonsys_frameworks" remote="xtended"/>  
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="xtended"/>   
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="xtended" revision="xt-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="xtended" revision="xt-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="xtended" revision="xt-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="xtended" revision="xt-sn100x" />
 
   <!-- (Clang) -->
 
