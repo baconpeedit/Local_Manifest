@@ -10,6 +10,7 @@
                 <remove-project name="frameworks_av" />
                 <remove-project name="packages_resources_devicesettings" />
                 <remove-project name="android_hardware_lineage_compat" />
+                <remove-project name="frameworks_base" />
 
    <!-- Trees -->
   
@@ -24,6 +25,7 @@
   <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="frameworks/av" name="baconpeedit/evo_frameworks_av" remote="mit" revision="tiramisu" />
+  <project path="frameworks/base" name="baconpeedit/frameworks_base-1" remote="mit" revision="patch-1" />
 
   <!-- (Clang) -->
 
