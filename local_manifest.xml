@@ -6,7 +6,6 @@
 
  <remote  name="crdroid"
            fetch="https://github.com/"
-           sync-c="true"
            revision="refs/heads/13.0" />
 
   <!-- Nuke Projects -->
