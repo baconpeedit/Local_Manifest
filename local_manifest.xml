@@ -11,6 +11,7 @@
                 <remove-project name="android_hardware_lineage_compat" />
                 <remove-project name="frameworks_base" />
                 <remove-project name="LineageOS/android_hardware_qcom_display" />
+                <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
    <!-- Trees -->
   
@@ -22,8 +23,9 @@
   <!-- Projects -->
  
   <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="mit" revision="arrow-13.0" />
-  <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="mit" revision="arrow-13.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="baconpeedit/android_hardware_qcom_media" remote="mit" revision="arrow-caf-13" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="baconpeedit/android_hardware_qcom_audio" remote="mit" revision="audio-arrow-13" />
+  <project path="hardware/qcom-caf/sm8150/display" name="baconpeedit/android_hardware_qcom_display" remote="mit" revision="display-arrow-13" />
   <project path="frameworks/av" name="baconpeedit/evo-av" remote="mit" revision="tiramisu" />
   <project path="frameworks/base" name="baconpeedit/evo-base" remote="mit" revision="patch-1" />
 
