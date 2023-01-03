@@ -4,11 +4,6 @@
  <remote name="mit"
            fetch="https://github.com" />
 
-  <!-- Nuke Projects -->
-                <remove-project name="frameworks_av" />
-                <remove-project name="hardware_xiaomi" />
-                <remove-project name="frameworks_base" />
-
    <!-- Trees -->
   
   <project path="device/xiaomi/ginkgo" name="tejasinggh/unstable_tree" remote="mit" revision="wip" clone-depth="1" />
@@ -16,10 +11,9 @@
   <project path="kernel/xiaomi/ginkgo" name="tejasinggh/wip_kernel" remote="mit" revision="wip_kernel" clone-depth="1" />
   <project path="vendor/miuicamera" name="baconpeedit/android_vendor_miuicamera" remote="mit" revision="micam-12.1" />
 
-  <!-- Projects -->
-
-  <project path="frameworks/av" name="baconpeedit/evo-av" remote="mit" revision="tiramisu" />
-  <project path="frameworks/base" name="baconpeedit/evo-base" remote="mit" revision="patch-1" />
+  <!-- Hardware -->
+  
+  <remove-project name="hardware_xiaomi" />
   <project path="hardware/xiaomi" name="baconpeedit/hardware_xiaomi" remote="mit" revision="tiramisu" />
 
   <!-- NFC -->
