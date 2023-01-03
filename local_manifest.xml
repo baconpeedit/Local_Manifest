@@ -15,6 +15,13 @@
   <remove-project name="hardware_xiaomi" />
   <project path="hardware/xiaomi" name="baconpeedit/hardware_xiaomi" remote="mit" revision="tiramisu" />
 
+  <!-- Buffer -->
+
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
+
   <!-- NFC -->
 
   <remove-project name="PixelExperience/vendor_nxp_nfc" />
@@ -43,6 +50,6 @@
 
   <!-- (Clang) -->
 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 
  </manifest>
