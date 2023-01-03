@@ -36,12 +36,12 @@
   <remove-project name="PixelExperience/vendor_nxp_secure_element" />
   <remove-project name="PixelExperience/vendor_nxp_secure_element_extns" />
 
-  <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" />
-  <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="mit" />
-  <project path="vendor/nxp/secure_element_extns" name="crdroidandroid/android_vendor_nxp_secure_element_extns" remote="mit" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="crdroidandroid/android_vendor_nxp_interfaces_opensource_nfc" remote="mit" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroidandroid/android_vendor_nxp_opensource_external_libnfc-nci" remote="mit" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="crdroidandroid/android_vendor_nxp_opensource_frameworks" remote="mit" />
+  <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/secure_element_extns" name="crdroidandroid/android_vendor_nxp_secure_element_extns" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="crdroidandroid/android_vendor_nxp_interfaces_opensource_nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroidandroid/android_vendor_nxp_opensource_external_libnfc-nci" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="crdroidandroid/android_vendor_nxp_opensource_frameworks" remote="mit" revision="13.0" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="crdroidandroid/android_vendor_nxp_opensource_packages_apps_Nfc" remote="mit" revision="13.0" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-pn5xx" />
