@@ -6,7 +6,7 @@
 
   <!-- Nuke Projects -->
                 <remove-project name="frameworks_av" />
-                <remove-project name="android_hardware_lineage_compat" />
+                <remove-project name="hardware_xiaomi" />
                 <remove-project name="frameworks_base" />
 
    <!-- Trees -->
@@ -20,6 +20,7 @@
 
   <project path="frameworks/av" name="baconpeedit/evo-av" remote="mit" revision="tiramisu" />
   <project path="frameworks/base" name="baconpeedit/evo-base" remote="mit" revision="patch-1" />
+  <project path="hardware/xiaomi" name="baconpeedit/hardware_xiaomi" remote="mit" revision="tiramisu" />
 
   <!-- NFC -->
 
