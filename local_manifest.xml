@@ -13,6 +13,7 @@
   <!-- Hardware -->
   
   <remove-project name="hardware_xiaomi" />
+  <remove-project name="android_hardware_lineage_compat" />
   <project path="hardware/xiaomi" name="baconpeedit/hardware_xiaomi" remote="mit" revision="tiramisu" />
 
   <!-- Buffer -->
