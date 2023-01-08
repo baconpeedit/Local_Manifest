@@ -8,25 +8,19 @@
                 <remove-project name="hardware_qcom_media" />
                 <remove-project name="hardware_qcom_display" />
                 <remove-project name="hardware_qcom_audio" />
-                <remove-project name="frameworks_base" />
-                <remove-project name="frameworks_av" />
-                <remove-project name="android_packages_resources_devicesettings" />
 
    <!-- Trees -->
   
-  <project path="device/xiaomi/ginkgo" name="tejasinggh/unstable_tree" remote="mit" revision="xtended_wip_unstable" clone-depth="1" />
+  <project path="device/xiaomi/ginkgo" name="tejasinggh/unstable_tree" remote="mit" revision="xtended_unstable" />
   <project path="vendor/xiaomi/ginkgo" name="tejasinggh/unstable_vendor" remote="mit" revision="wip_vendor" clone-depth="1" />
   <project path="kernel/xiaomi/ginkgo" name="tejasinggh/wip_kernel" remote="mit" revision="wip_kernel" clone-depth="1" />
   <project path="vendor/miuicamera" name="baconpeedit/android_vendor_miuicamera" remote="mit" revision="micam-12.1" />
 
   <!-- Projects -->
  
-  <project path="packages/resources/devicesettings" name="ArrowOS/android_packages_resources_devicesettings" remote="mit" revision="arrow-13.0" />
   <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
-  <project path="frameworks/base" name="baconpeedit/frameworks_base" remote="mit" revision="frameworks-xt-base" />
-  <project path="frameworks/av" name="baconpeedit/frameworks_av" remote="mit" revision="av-frameworks-xt" />
 
   <!-- (Clang) -->
 
