@@ -36,6 +36,7 @@
   <remove-project name="PixelExperience/vendor_nxp_opensource_sn100x_hidlimpl" />
   <remove-project name="PixelExperience/vendor_nxp_secure_element" />
   <remove-project name="PixelExperience/vendor_nxp_secure_element_extns" />
+  <remove-project name="packages_apps_Nfc" />c
 
   <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
   <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="mit" revision="13.0" />
@@ -48,6 +49,7 @@
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-sn100x" />
+  <project path="packages/apps/Nfc" name="crdroidandroid/android_packages_apps_Nfc" remote="mit" revision="13.0" />
 
   <!-- (Clang) -->
 
