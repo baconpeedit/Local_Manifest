@@ -11,6 +11,23 @@
   <project path="kernel/xiaomi/ginkgo" name="tejasinggh/wip_kernel" remote="mit" revision="wip_kernel" clone-depth="1" />
   <project path="vendor/miuicamera" name="baconpeedit/android_vendor_miuicamera" remote="mit" revision="micam-12.1" />
 
+  <!-- NFC -->
+
+  <remove-project name="packages_apps_Nfc" />c
+
+  <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/secure_element_extns" name="crdroidandroid/android_vendor_nxp_secure_element_extns" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="crdroidandroid/android_vendor_nxp_interfaces_opensource_nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroidandroid/android_vendor_nxp_opensource_external_libnfc-nci" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="crdroidandroid/android_vendor_nxp_opensource_frameworks" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="crdroidandroid/android_vendor_nxp_opensource_packages_apps_Nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-sn100x" />
+  <project path="packages/apps/Nfc" name="crdroidandroid/android_packages_apps_Nfc" remote="mit" revision="13.0" />
+
   <!-- (Clang) -->
 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
