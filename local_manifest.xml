@@ -12,8 +12,8 @@
    <!-- Trees -->
   
   <project path="device/xiaomi/ginkgo" name="tejasinggh/unstable_tree" remote="mit" revision="xtended_unstable" />
-  <project path="vendor/xiaomi/ginkgo" name="tejasinggh/unstable_vendor" remote="mit" revision="wip_vendor" clone-depth="1" />
-  <project path="kernel/xiaomi/ginkgo" name="tejasinggh/wip_kernel" remote="mit" revision="wip_kernel" clone-depth="1" />
+  <project path="vendor/xiaomi/ginkgo" name="tejasinggh/vendor_unstable" remote="mit" revision="wip_vendor" clone-depth="1" />
+  <project path="kernel/xiaomi/ginkgo" name="crdroidandroid/android_kernel_xiaomi_ginkgo" remote="mit" revision="13.0" clone-depth="1" />
   <project path="vendor/miuicamera" name="baconpeedit/android_vendor_miuicamera" remote="mit" revision="micam-12.1" />
 
   <!-- Projects -->
@@ -21,6 +21,34 @@
   <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="mit" revision="arrow-13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="mit" revision="arrow-13.0-caf-sm8150" />
+
+  <!-- NFC -->
+
+  <remove-project name="vendor_nxp_nfc" />
+  <remove-project name="vendor_nxp_secure_element" />
+  <remove-project name="vendor_nxp_secure_element_extns" />
+  <remove-project name="vendor_nxp_opensource_interfaces_nfc" />
+  <remove-project name="vendor_nxp_opensource_commonsys_external_libnfc-nci" />
+  <remove-project name="vendor_nxp_opensource_commonsys_frameworks" />
+  <remove-project name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" />
+  <remove-project name="vendor_nxp_opensource_halimpl" />
+  <remove-project name="vendor_nxp_opensource_hidlimpl" />
+  <remove-project name="vendor_nxp_opensource_halimpl" />
+  <remove-project name="vendor_nxp_opensource_hidlimpl" />
+  <remove-project name="packages_apps_Nfc" />c
+
+  <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/secure_element_extns" name="crdroidandroid/android_vendor_nxp_secure_element_extns" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="crdroidandroid/android_vendor_nxp_interfaces_opensource_nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroidandroid/android_vendor_nxp_opensource_external_libnfc-nci" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="crdroidandroid/android_vendor_nxp_opensource_frameworks" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="crdroidandroid/android_vendor_nxp_opensource_packages_apps_Nfc" remote="mit" revision="13.0" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-sn100x" />
+  <project path="packages/apps/Nfc" name="crdroidandroid/android_packages_apps_Nfc" remote="mit" revision="13.0" />
 
   <!-- (Clang) -->
 
