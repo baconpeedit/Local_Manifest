@@ -33,8 +33,6 @@
   <remove-project name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" />
   <remove-project name="vendor_nxp_opensource_halimpl" />
   <remove-project name="vendor_nxp_opensource_hidlimpl" />
-  <remove-project name="vendor_nxp_opensource_halimpl" />
-  <remove-project name="vendor_nxp_opensource_hidlimpl" />
   <remove-project name="packages_apps_Nfc" />c
 
   <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
