@@ -7,9 +7,10 @@
    <!-- Trees -->
   
   <project path="device/xiaomi/ginkgo" name="tejasinggh/unstable_tree" remote="mit" revision="bootleg" />
-  <project path="vendor/xiaomi/ginkgo" name="tejasinggh/unstable_vendor" remote="mit" revision="wip_vendor" clone-depth="1" />
-  <project path="kernel/xiaomi/ginkgo" name="Flopster101/flop_ginkgo_kernel" remote="mit" revision="a13/flop-ms3" clone-depth="1" />
+  <project path="vendor/xiaomi/ginkgo" name="tejasinggh/vendor_unstable" remote="mit" revision="wip_vendor" clone-depth="1" />
+  <project path="kernel/xiaomi/ginkgo" name="crdroidandroid/android_kernel_xiaomi_ginkgo" remote="mit" revision="13.0" clone-depth="1" />
   <project path="vendor/miuicamera" name="baconpeedit/android_vendor_miuicamera" remote="mit" revision="micam-12.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mit" revision="lineage-20.0" />
 
   <!-- NFC -->
 
@@ -30,6 +31,6 @@
 
   <!-- (Clang) -->
 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 
  </manifest>
