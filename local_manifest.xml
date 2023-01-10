@@ -33,7 +33,7 @@
   <remove-project name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" />
   <remove-project name="vendor_nxp_opensource_halimpl" />
   <remove-project name="vendor_nxp_opensource_hidlimpl" />
-  <remove-project name="packages_apps_Nfc" />c
+  <remove-project name="packages_apps_Nfc" />
 
   <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
   <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="mit" revision="13.0" />
@@ -50,6 +50,6 @@
 
   <!-- (Clang) -->
 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 
  </manifest>
