@@ -37,6 +37,7 @@
 
   <!-- (Clang) -->
 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" clone-depth="1" />
 
  </manifest>
